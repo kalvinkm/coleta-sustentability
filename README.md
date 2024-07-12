@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# COLETA SUSTENTABILITY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Projeto desenvolvido em ReactJS (HTML - CSS - JAVSCRIPT / TYPESCRIPT)
 
-Currently, two official plugins are available:
+- [Link](https://coleta-sustentability.netlify.app/) - do projeto `Coleta Sustentability - Sustainable Living`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# EVIDÊNCIAS
 
-## Expanding the ESLint configuration
+## DESKTOP
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![coleta-sustentability-01](https://github.com/user-attachments/assets/7d768b47-e153-419b-bb9e-560646e238a7)
 
-- Configure the top-level `parserOptions` property like this:
+![coleta-sustentability-02](https://github.com/user-attachments/assets/4ac6c943-edf8-4b5c-8f28-5627bb1587e9)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![coleta-sustentability-03](https://github.com/user-attachments/assets/90544aa8-e125-433f-a57e-70df167da513)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## MOBILE
+
+![coleta-sustentability-mob-01](https://github.com/user-attachments/assets/9c1f12cf-4f7b-4c09-a063-9b2aab6c3c10)
+
+![coleta-sustentability-mob-02](https://github.com/user-attachments/assets/d228bd64-4772-4d42-a0bd-37b2876b2c9f)
+
+![coleta-sustentability-mob-03](https://github.com/user-attachments/assets/1b31d21d-b541-4d04-a5c4-ae37b17d7e03)
