@@ -4,7 +4,6 @@
     cursor: pointer;
     text-align: center;
     margin-top: 20px;
-    text-align: start;
     text-decoration: underline;
     color: #317f54;
 }
@@ -16,7 +15,7 @@
 
 .clickable-div h1 {
     color: white;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
     display: flex;
     align-items: center;
@@ -54,4 +53,14 @@
     border-radius: 0 8px 8px 0;
     cursor: pointer;
     transition: 400ms;
+}
+
+@media screen and (min-width: 64em) {
+    .clickable-div {
+        text-align: start;
+    }
+
+    .clickable-div h1 {
+        font-size: 36px;
+    }
 }

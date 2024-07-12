@@ -276,7 +276,6 @@ export function CollectionPoints() {
         <fieldset>
           <legend>
             <h2>Endereço</h2>
-            <span>Selecione o endereço do mapa</span>
           </legend>
 
           <div className="field-group">
@@ -365,7 +364,7 @@ export function CollectionPoints() {
         </fieldset>
 
         <fieldset>
-          <legend>
+          <legend className="items-legend">
             <h2>Ítens de coleta</h2>
             <span className="select-items">
               Selecione um ou mais ítens abaixo

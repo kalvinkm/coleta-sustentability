@@ -38,7 +38,7 @@
 
 .form-collection-points {
     margin: 50px auto;
-    padding: 64px;
+    padding: 24px;
     max-width: 730px;
     width: 100%;
     background: #fff;
@@ -49,7 +49,7 @@
 
 .form-title {
     color: #322153;
-    font-size: 36px;
+    font-size: 23px;
 }
 
 .dropzone-message-error,
@@ -137,13 +137,6 @@
     max-height: 51px;
 }
 
-.field input[type=email],
-.field select#uf,
-.field input[type=text]#logradouro,
-.field input[type=checkbox]#disableNumeroCheckbox {
-    margin-right: 10px;
-}
-
 .field select#uf,
 .field select#city {
     max-height: 53px;
@@ -152,6 +145,7 @@
 .field-group {
     flex: 1 1;
     display: flex;
+    flex-direction: column;
 }
 
 .places-and-number {
@@ -160,6 +154,7 @@
 
 .fields-groups-input {
     display: flex;
+    flex-direction: column;
 }
 
 .checkbox-area {
@@ -175,7 +170,7 @@ label.disableNumeroCheckbox {
 }
 
 .page-create-button {
-    width: 260px;
+    width: 282px;
     height: 56px;
     background-color: #317f54;
     border-radius: 8px;
@@ -184,15 +179,23 @@ label.disableNumeroCheckbox {
     font-size: 16px;
     border: 0;
     align-self: flex-end;
-    margin-top: 40px;
     transition: background-color .2s;
     cursor: pointer;
+    margin: 40px auto;
 }
 
 .page-create-button:hover {
     background: #e1faec;
     color: #317f54;
     border: 1px solid #317f54;
+}
+
+.items-legend {
+    flex-direction: column;
+}
+
+.items-legend h2 {
+    margin-bottom: 10px;
 }
 
 .select-items {
@@ -202,9 +205,8 @@ label.disableNumeroCheckbox {
 }
 
 .items-grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 16px;
+    display: flex;
+    flex-direction: column  ;
     gap: 16px;
     list-style: none;
 }
@@ -222,6 +224,7 @@ label.disableNumeroCheckbox {
     text-align: center;
     cursor: pointer;
 }
+
 .items-grid li.selected {
     background: #e1faec;
     border: 2px solid #34cb79;
@@ -233,4 +236,48 @@ label.disableNumeroCheckbox {
     display: flex;
     align-items: center;
     color: #322153;
+}
+
+.field input[type=checkbox]#disableNumeroCheckbox {
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 64em) {
+    .form-collection-points {
+        padding: 64px;
+    }
+
+    .form-title {
+        font-size: 36px;
+    }
+
+    field-group {
+        flex-direction: row;
+    }
+
+    .fields-groups-input {
+        flex-direction: row;
+    }
+
+    .field input[type=email],
+    .field select#uf,
+    .field input[type=text]#logradouro {
+        margin-right: 10px;
+    }
+
+    .items-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 16px;
+    }
+
+    .page-create-button {
+        margin-right: 0px;
+        margin-top: 56px;
+    }
+
+    .items-legend {
+        flex-direction: row;
+    }
+
 }
